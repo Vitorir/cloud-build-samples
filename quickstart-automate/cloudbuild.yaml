@@ -18,7 +18,7 @@ steps:
     args: ['go', 'run', 'quickstart-automate/main.go']
 
 options:
-  logsBucket: gs://esse_e_o_meu_bucket  # Especifique o bucket para logs
+  logging: CLOUD_LOGGING_ONLY
 serviceAccount: conta-servico@inlaid-course-418423.iam.gserviceaccount.com
 
 # [END cloudbuild_quickstart_automate]
